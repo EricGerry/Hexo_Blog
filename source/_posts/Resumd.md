@@ -5,9 +5,11 @@ tags:
 ---
 ## **汪瑞/WangRui**
 
+<!--more-->
+
 ---
 
-:phone::&nbsp;&nbsp;15229327310</br>
+:phone::&nbsp;&nbsp;152-2932-7310</br>
 :e-mail::&nbsp;&nbsp;EricGerry@126.com</br>
 :+1::&nbsp;&nbsp;github.com/EricGerry</br>
 
