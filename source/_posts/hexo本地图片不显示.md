@@ -2,7 +2,7 @@
 title: hexo本地图片不显示
 date: 2020-03-13 23:13:40
 tags:
-    -hexo
+     hexo
 ---
 ### 1、修改文件_config.yml 里的post_asset_folder:这个选项设置为true
 
