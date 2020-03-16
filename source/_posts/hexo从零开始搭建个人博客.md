@@ -2,17 +2,18 @@
 title: hexo从零开始搭建个人博客
 date: 2019-09-14 22:13:37
 tags:
-    hexo
-    node
-    git
+    - hexo
+    - node
+    - git
 ---
+![hexo+github](./hexo从零开始搭建个人博客/hexo+github.jpg)
 
 ### 1.什么是 Hexo
 
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页
 具体参考[Hexo官方文档](https://hexo.io/zh-cn/docs/index.html)
 [Hexo博客](http://www.theoak.online)
-
+<!--more-->
 ### 2.安装Git
 
 我一直不太喜欢在cmd中操作各种命令，所以挑了这个比较好使的Git, 我的是windows环境，所以下载windows版本并安装就可以了。
@@ -23,7 +24,7 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 命令：git version (写这篇博客的时候最新版本：2.12.2)
 ![Git版本](./hexo从零开始搭建个人博客/gitVersion.jpg)
 
-### 2. 安装NodeJs
+### 3. 安装NodeJs
 
 Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所以还是老老实实把这玩意儿装了吧
 
