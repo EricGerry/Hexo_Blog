@@ -3,6 +3,8 @@ title: Lombok可真香！！！
 date: 2020-03-19 20:02:00
 tags:
     - Lombok
+categories:
+    - java
 ---
 ### Lombok到底是什么
 

@@ -5,6 +5,8 @@ tags:
     - hexo
     - node
     - git
+categories:
+    - hexo
 ---
 ![hexo+github](./hexo从零开始搭建个人博客/hexo+github.jpg)
 

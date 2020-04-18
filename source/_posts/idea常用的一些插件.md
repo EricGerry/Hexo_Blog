@@ -3,6 +3,8 @@ title: idea常用的一些插件
 date: 2020-03-15 22:55:57
 tags:
     - idea
+categories:
+    - idea
 ---
 ![idea插件](./idea常用的一些插件/idea插件.jpg)
 

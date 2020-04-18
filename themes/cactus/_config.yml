@@ -1,0 +1,166 @@
+##############################################################################
+# 主题配置文件
+##############################################################################
+
+##############################################################################
+# 头部配置项
+##############################################################################
+
+# 网站头部的logo配置.
+# 选项:
+#   - enabled: 显示或者隐藏logo.
+#   - width: 显示logo的宽度(px作为单位)
+#   - height: 显示logo的高度(px作为单位)
+#   - url: logo文件的位置
+#   - gravatar: 是否使用你的 Gravatar 作为logo
+logo:
+  enabled: true
+  width: 50
+  height: 50
+  url: /images/Photo_0411_1a.jpg
+  gravatar: false
+
+# 自定义 favicons.
+# 支持对桌面、安卓、苹果三种设备的 icons 配置:
+#   - desktop: 经典 favion.ico 文件.
+#   - android: 一个 192x192 的PNG文件.
+#   - apple:  一个 180x180 的PNG文件.
+# 你可以从这个网站生成 http://realfavicongenerator.net/
+# 选项:
+#   - url: icon 的地址
+#   - gravatar: 从你的 Gravatar 创建一个favicon
+favicon:
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  android:
+    url: /images/favicon-192x192.png
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
+
+# 配置你的导航菜单.
+# 按照 'Key: url' 来配置
+# 如果你希望使用中文来替换 Key 请到 languages/*.yml 中指定 Key 对应的翻译
+nav:
+  home: /
+  articles: /archives/
+  category: /categories/
+  tag: /tags/
+  about: /about/
+  search: /search/
+
+# 在首页显示的，用于连接到你社交媒体的链接.
+# 你可以手动指定被 Fontawesome icon 支持的图标
+# (查看 https://fontawesome.com/icons?d=gallery&s=brands);
+# 注意:仅仅 'gitee' 和 'mail' 是被主题强制定义的图标.
+# - qq: 修改uin参数为自己的QQ帐号
+# - wechat: 二维码图片地址
+social_links:
+  github: https://github.com/EricGerry
+  mail: mailto:EricGerry@126.com
+   # qq: 644904098
+  weixin: https://img3.doubanio.com/view/status/l/public/476b7095e8a24c2.webp
+
+# 是否在首页显示标签云,标签云将会在文章列表的上面显示.
+# 详细: https://hexo.io/docs/helpers.html#tagcloud
+tags_overview: false
+
+# 在首页显示文章列表的相关配置.
+# 选项:
+#   - show_all_posts: 在首页显示所有文章.
+#   - post_count: 每页显示指定数量的文章.
+#   - sort_updated: 按上次修改日期而不是创建日期对文章排序.
+posts_overview:
+  show_all_posts: false
+  post_count: 20
+  sort_updated: false
+
+# 文章归档展示.
+# 选项:
+#   - sort_updated: 按上次修改日期而不是创建日期对文章排序.
+# 注意: 该选项不能与分页一起工作，因为分页插件按创建日期对页面进行排序.
+archive:
+  sort_updated: false
+
+# 自定义文章显示.
+# 选项:
+#   - show_updated: 在文章页面显示最后修改文章日期.
+post:
+  show_updated: true
+
+# 页面布局最大宽度,不建议修改(rem作为单位).
+page_width: 48
+
+
+##############################################################################
+# 杂项
+##############################################################################
+
+# 个人项目Projects地址 首页 Projects 将会引导至该页面
+projects_url: https://github.com/EricGerry
+# 链接Links地址 首页 Links 将会引导至该页面
+# links_url: https://github.com/xuthus5
+
+# 是否开启 RSS 订阅.
+rss: true
+
+# 使用 highlight 来高亮代码块.
+# 默认xuthus配色,xuthus配色基于github-gist样式修改,自定义请查看 source/css/_highlight 支持的配色.
+highlight: atom-one-dark
+
+# 设置主题配色.
+# 支持 'dark', 'light', 'classic' 和 'white'.
+# 自定义在 source/css/_colors 下进行,建议使用white.
+colorscheme: white
+
+# 请设置你的 Gravatar 用户 id 或者 email 如果你使用 gravatar 作为 logo 或者 favicons 在你的网站上.
+# 网址 http://cn.gravatar.com/
+gravatar:
+  email: EricGerry@126.com
+
+# valine评论
+# - appId/appKey: 从LeanCloud的应用中得到的appId/appKey.
+# - notify: 评论回复邮件提醒
+# - verify: 验证码服务
+# - avatar: Gravatar 头像展示方式
+# - placeholder: 评论框占位提示符
+# - guest_info: 评论者相关属性 不建议修改
+# - pageSize: 评论列表分页，每页条数
+# - visitor: 文章访问量统计
+# - lang: 多语言支持 zh-cn / en
+# https://valine.js.org/
+valine:
+  enabled: true
+  appId: TEnoeFH0w3atQfEjCMpzfDOm-gzGzoHsz
+  appKey: 8GXwVUi9ebKXuqSFR48rkXtK
+  notify: true
+  verify: false
+  avatar: mm
+  placeholder: Just go go
+  guest_info: nick,mail,link
+  pageSize: 10
+  visitor: false
+  lang: zh-cn
+
+##############################################################################
+# 底部配置项
+##############################################################################
+
+# 用于显示备案信息的选项
+# 格式 icp: 京ICP备12345678号
+icp: 
+  enabled: false
+  url: http://www.beian.miit.gov.cn/
+  text: 湘ICP备17005082号
+
+# 是否在网站底部展示 CDN 厂商的信息
+# - image:厂商LOGO 选项不为空时 默认优先图片信息
+# - text: 厂商名称 只有image选项为空 才显示text
+# - site: 厂商地址
+cdn:
+  enabled: false
+  text: 又拍云
+  # image: /images/upyun.png
+  site: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral

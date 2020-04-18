@@ -4,6 +4,8 @@ date: 2019-09-23 21:16:44
 tags:
     - java
     - static
+categories:
+    - java
 ---
 &emsp;static关键字是很多朋友在编写代码和阅读代码时碰到的比较难以理解的一个关键字，我打算写这边博客的起因是在牛客上刷到一道题，特别强调static关键词的重要性，使我意识到我在这方面的基础有着很大的方面欠缺，于是打算查阅资料进行补充。
 ![static](./Java中的static关键字解析/static.png)
