@@ -8,7 +8,7 @@ tags:
     - 面试题
 categories:
     - java
-    - 多线程
+    - 面试
 ---
 
 ![ ](./Java并发和多线程基础面试题/java.jpg)
