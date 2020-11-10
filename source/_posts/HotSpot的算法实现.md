@@ -5,7 +5,7 @@ tags:
     - JVM
     - java
 categories: 
-- java
+    - java
 ---
 ![ ](./HotSpot的算法实现/1.jpg)
 

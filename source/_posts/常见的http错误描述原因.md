@@ -2,10 +2,10 @@
 title: 常见的http错误描述原因
 date: 2019-06-14 15:06:41
 tags:
-    - java
-    - http
+  - java
+  - http
 categories:
-    - java
+  - java
 ---
 
 ## 1xx（临时响应）
